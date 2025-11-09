@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.2.05 - EFI Analytics, Inc." tuneComment="Current Tasks&#10;- Take a log of the current tune&#10;- Do not change anything while the log is running&#10;&#10;Ideas for after this og&#10;- Turn down the warm up enrichment temp from 190 to 180-185.&#10;&#9;- I turned it up to 190, even though the fans come on at 180, with the idea that the oil will get the time to warmup fully and the actual water temp will idle around 190, but it may end up closer to 180-185&#10;- Idle is a tiny bit irregular&#10;&#9;- Make a list of steps to take to fine tune the idle&#10;&#9;- Save the current idle settings, then mess with it&#10;&#9;- timing seems to try and correct within 0.2 degrees MOE, mostly retarding with idle control&#10;- Increase the cranking pulse&#10;&#9;- It is taking more cranks to start the engine&#10;&#9;- Truning it back up may help it start again&#10;&#10;- Voltage is low&#10;&#9;- May need a new alternator" writeDate="Fri Nov 07 18:48:31 EST 2025"/>
+    <bibliography author="TunerStudio MS Ultra 3.2.05 - EFI Analytics, Inc." tuneComment="Current Tasks&#10;- Take a log of the current tune&#10;- Do not change anything while the log is running&#10;&#10;Ideas for after this og&#10;- Turn down the warm up enrichment temp from 190 to 180-185.&#10;&#9;- I turned it up to 190, even though the fans come on at 180, with the idea that the oil will get the time to warmup fully and the actual water temp will idle around 190, but it may end up closer to 180-185&#10;- Idle is a tiny bit irregular&#10;&#9;- Make a list of steps to take to fine tune the idle&#10;&#9;- Save the current idle settings, then mess with it&#10;&#9;- timing seems to try and correct within 0.2 degrees MOE, mostly retarding with idle control&#10;- Increase the cranking pulse&#10;&#9;- It is taking more cranks to start the engine&#10;&#9;- Truning it back up may help it start again&#10;&#10;- Voltage is low&#10;&#9;- May need a new alternator" writeDate="Sat Nov 08 15:44:43 EST 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms330NP"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -467,7 +467,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
         <constant cols="7" digits="1" name="psThreshold" rows="2">
-         0.0 0.0 1800.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 1750.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
         <constant cols="7" digits="1" name="psHysteresis" rows="2">
@@ -688,7 +688,7 @@
          1100.0 
          1000.0 
          950.0 
-         950.0 
+         1000.0 
       </constant>
         <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°F">
          60.0 
