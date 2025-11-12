@@ -11,7 +11,7 @@
             <Max type="double">100.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">891958587</GroupId>
+            <GroupId type="int">1441233307</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -44,7 +44,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">145</ShortestSize>
+            <ShortestSize type="int">164</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -86,7 +86,7 @@
             <Max type="double">100.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">891958587</GroupId>
+            <GroupId type="int">1441233307</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -119,7 +119,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">29</ShortestSize>
+            <ShortestSize type="int">33</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -161,7 +161,7 @@
             <Max type="double">255.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">1300089173</GroupId>
+            <GroupId type="int">443408407</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -194,7 +194,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">145</ShortestSize>
+            <ShortestSize type="int">164</ShortestSize>
             <SmoothedValue type="double">28.19417475728155</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -236,7 +236,7 @@
             <Max type="double">255.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">1300089173</GroupId>
+            <GroupId type="int">443408407</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -269,7 +269,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">29</ShortestSize>
+            <ShortestSize type="int">33</ShortestSize>
             <SmoothedValue type="double">28.19417475728155</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -311,7 +311,7 @@
             <Max type="double">19.4</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">1794991496</GroupId>
+            <GroupId type="int">2077452802</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -344,7 +344,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">145</ShortestSize>
+            <ShortestSize type="int">164</ShortestSize>
             <SmoothedValue type="double">12.3825780730897</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -386,7 +386,7 @@
             <Max type="double">19.4</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">1794991496</GroupId>
+            <GroupId type="int">2077452802</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -419,7 +419,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">29</ShortestSize>
+            <ShortestSize type="int">33</ShortestSize>
             <SmoothedValue type="double">12.3825780730897</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -461,7 +461,7 @@
             <Max type="double">150.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">729090316</GroupId>
+            <GroupId type="int">867479682</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -494,7 +494,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">145</ShortestSize>
+            <ShortestSize type="int">164</ShortestSize>
             <SmoothedValue type="double">98.4</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -536,7 +536,7 @@
             <Max type="double">150.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">729090316</GroupId>
+            <GroupId type="int">867479682</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -569,7 +569,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">29</ShortestSize>
+            <ShortestSize type="int">33</ShortestSize>
             <SmoothedValue type="double">98.4</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -611,7 +611,7 @@
             <Max type="double">150.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">46993738</GroupId>
+            <GroupId type="int">7685702</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -644,7 +644,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">145</ShortestSize>
+            <ShortestSize type="int">164</ShortestSize>
             <SmoothedValue type="double">98.4</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -686,7 +686,7 @@
             <Max type="double">150.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
-            <GroupId type="int">46993738</GroupId>
+            <GroupId type="int">7685702</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
@@ -719,7 +719,7 @@
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">29</ShortestSize>
+            <ShortestSize type="int">33</ShortestSize>
             <SmoothedValue type="double">98.4</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
