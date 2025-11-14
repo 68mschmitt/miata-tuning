@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="Current Tasks&#10;- Take a log of the current tune&#10;- Do not change anything while the log is running&#10;&#10;Ideas for after this og&#10;- Turn down the warm up enrichment temp from 190 to 180-185.&#10;&#9;- I turned it up to 190, even though the fans come on at 180, with the idea that the oil will get the time to warmup fully and the actual water temp will idle around 190, but it may end up closer to 180-185&#10;- Idle is a tiny bit irregular&#10;&#9;- Make a list of steps to take to fine tune the idle&#10;&#9;- Save the current idle settings, then mess with it&#10;&#9;- timing seems to try and correct within 0.2 degrees MOE, mostly retarding with idle control&#10;- Increase the cranking pulse&#10;&#9;- It is taking more cranks to start the engine&#10;&#9;- Truning it back up may help it start again&#10;&#10;- Voltage is low&#10;&#9;- May need a new alternator" writeDate="Thu Nov 13 15:37:05 CST 2025"/>
+    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;Current Tasks&#10;- Take a log of the current tune&#10;- Do not change anything while the log is running&#10;&#10;Ideas for after this og&#10;- Turn down the warm up enrichment temp from 190 to 180-185.&#10;&#9;- I turned it up to 190, even though the fans come on at 180, with the idea that the oil will get the time to warmup fully and the actual water temp will idle around 190, but it may end up closer to 180-185&#10;- Idle is a tiny bit irregular&#10;&#9;- Make a list of steps to take to fine tune the idle&#10;&#9;- Save the current idle settings, then mess with it&#10;&#9;- timing seems to try and correct within 0.2 degrees MOE, mostly retarding with idle control&#10;- Increase the cranking pulse&#10;&#9;- It is taking more cranks to start the engine&#10;&#9;- Truning it back up may help it start again&#10;&#10;- Voltage is low&#10;&#9;- May need a new alternator" writeDate="Thu Nov 13 12:52:18 CST 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms330NP"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -81,16 +81,16 @@
          88.0 
       </constant>
         <constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
-        <constant digits="0" name="crankingRPM" units="RPM">400.0</constant>
+        <constant digits="0" name="crankingRPM" units="RPM">300.0</constant>
         <constant cols="1" digits="1" name="cold_adv_table" rows="10" units="deg">
-         7.0 
-         7.0 
-         7.0 
-         7.0 
-         7.0 
-         5.0 
-         3.5 
-         2.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
       </constant>
@@ -133,8 +133,8 @@
          169.0 
          156.0 
          145.0 
-         125.0 
-         112.0 
+         135.0 
+         121.0 
          100.0 
       </constant>
         <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
@@ -688,7 +688,7 @@
          1100.0 
          1000.0 
          950.0 
-         850.0 
+         900.0 
       </constant>
         <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°F">
          60.0 
@@ -698,12 +698,12 @@
          128.6 
          145.7 
          162.9 
-         200.0 
+         180.0 
       </constant>
         <constant digits="0" name="pwmidle_ms" units="ms">50.0</constant>
-        <constant digits="0" name="pwmidle_close_delay" units="sec">2.0</constant>
-        <constant digits="1" name="pwmidle_open_duty" units="%">64.68</constant>
-        <constant digits="0" name="pwmidle_open_steps" units="steps">165.0</constant>
+        <constant digits="0" name="pwmidle_close_delay" units="sec">0.0</constant>
+        <constant digits="1" name="pwmidle_open_duty" units="%">65.072</constant>
+        <constant digits="0" name="pwmidle_open_steps" units="steps">166.0</constant>
         <constant digits="1" name="pwmidle_closed_duty" units="%">19.992</constant>
         <constant digits="0" name="pwmidle_closed_steps" units="steps">51.0</constant>
         <constant digits="0" name="pwmidle_pid_wait_timer" units="sec">2.0</constant>
@@ -714,12 +714,12 @@
         <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">13.0</constant>
         <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">1000.0</constant>
         <constant digits="1" name="pwmidle_decelload_threshold" units="%">30.0</constant>
-        <constant digits="1" name="pwmidle_Kp_new" units="%">16.0</constant>
-        <constant digits="1" name="pwmidle_Ki_new" units="%">7.0</constant>
-        <constant digits="1" name="pwmidle_Kd_new" units="%">2.0</constant>
+        <constant digits="1" name="pwmidle_Kp_new" units="%">25.0</constant>
+        <constant digits="1" name="pwmidle_Ki_new" units="%">20.0</constant>
+        <constant digits="1" name="pwmidle_Kd_new" units="%">5.0</constant>
         <constant name="pwmidle_freq">"340Hz"</constant>
-        <constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
-        <constant digits="0" name="pwmidle_max_rpm_new">2015.0</constant>
+        <constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
+        <constant digits="0" name="pwmidle_max_rpm_new">1641.0</constant>
         <constant digits="0" name="pwmidle_targ_ramptime" units="sec">2.0</constant>
         <constant digits="0" name="pwmidle_rpmdot_disablepid">1000.0</constant>
         <constant name="pwmidle_port">"Local"</constant>
@@ -802,21 +802,21 @@
       </constant>
         <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          65.072 
-         50.176 
-         39.984 
-         34.888 
+         65.072 
+         54.88 
+         30.184 
       </constant>
         <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          166.0 
-         128.0 
-         102.0 
-         89.0 
+         166.0 
+         140.0 
+         77.0 
       </constant>
         <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°F">
-         40.0 
-         100.0 
-         175.0 
-         195.0 
+         0.9 
+         72.4 
+         126.5 
+         180.0 
       </constant>
         <constant cols="6" digits="1" name="injadvTable3" rows="6" units="deg">
          90.0 90.0 90.0 90.0 90.0 90.0 
@@ -855,27 +855,27 @@
          1.2 
       </constant>
         <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         339.0 
-         329.0 
-         317.0 
-         297.0 
-         274.0 
-         256.0 
-         226.0 
-         187.0 
-         149.0 
-         110.0 
+         220.0 
+         210.0 
+         200.0 
+         180.0 
+         157.0 
+         145.0 
+         136.0 
+         121.0 
+         117.0 
+         113.0 
       </constant>
         <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
-         50.0 
-         48.0 
-         45.0 
          40.0 
+         38.0 
          35.0 
-         33.0 
-         31.0 
-         26.0 
-         21.0 
+         30.0 
+         15.0 
+         10.0 
+         10.0 
+         10.0 
+         10.0 
          10.0 
       </constant>
         <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
@@ -1066,7 +1066,7 @@
          0.0 
          13.4 
          27.8 
-         50.0 
+         40.0 
          75.0 
          85.0 
          98.0 
@@ -1131,7 +1131,7 @@
         <constant digits="0" name="EAElagRPMmax" units="rpm">3000.0</constant>
         <constant digits="0" name="fc_ego_delay" units="seconds">0.0</constant>
         <constant digits="0" name="fc_rpm_lower" units="rpm">2000.0</constant>
-        <constant digits="0" name="pwmidle_shift_lower_rpm" units="rpm">1400.0</constant>
+        <constant digits="0" name="pwmidle_shift_lower_rpm" units="rpm">1200.0</constant>
         <constant digits="0" name="pwmidle_shift_open_time" units="sec">1.0</constant>
         <constant cols="1" digits="0" name="rmt_psEnabled" rows="8" units="on/off">
          0.0 
@@ -1517,7 +1517,6 @@
         <constant digits="1" name="testint" units="ms">300.032</constant>
         <constant digits="0" name="testrpm" units="RPM">399.9573379</constant>
         <constant digits="3" name="testpw" units="ms">5.000328</constant>
-        <constant digits="0" name="testinjcnt">0.0</constant>
         <constant name="testsel_inj">"Inj1"</constant>
         <constant name="testsel_coil">"CoilA"</constant>
         <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -1835,7 +1834,7 @@
         <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
          22.0 22.0 22.0 15.0 18.0 20.0 22.0 23.0 22.0 22.0 23.0 23.0 24.0 25.0 25.0 26.0 
          18.0 17.0 18.0 26.0 24.0 22.0 20.0 15.0 16.0 16.0 17.0 16.0 17.0 17.0 18.0 19.0 
-         18.0 15.0 18.0 24.0 22.0 21.0 20.0 20.0 20.0 20.0 18.0 20.0 21.0 21.0 22.0 22.0 
+         18.0 17.0 18.0 24.0 22.0 21.0 20.0 20.0 20.0 20.0 18.0 20.0 21.0 21.0 22.0 22.0 
          23.0 23.0 23.0 22.0 23.0 24.0 24.0 24.0 23.0 23.0 24.0 26.0 27.0 29.0 30.0 30.0 
          26.0 26.0 26.0 30.0 31.0 32.0 29.0 28.0 28.0 29.0 29.0 32.0 33.0 34.0 36.0 37.0 
          34.0 34.0 35.0 37.0 37.0 37.0 35.0 35.0 35.0 35.0 34.0 37.0 38.0 40.0 41.0 43.0 
@@ -1997,7 +1996,7 @@
         <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
          22.0 22.0 22.0 15.0 18.0 20.0 22.0 23.0 22.0 22.0 23.0 23.0 
          24.0 25.0 25.0 26.0 18.0 17.0 18.0 26.0 24.0 22.0 20.0 15.0 
-         16.0 16.0 17.0 16.0 17.0 17.0 18.0 19.0 18.0 15.0 18.0 24.0 
+         16.0 16.0 17.0 16.0 17.0 17.0 18.0 19.0 18.0 17.0 18.0 24.0 
          22.0 21.0 20.0 20.0 20.0 20.0 18.0 20.0 21.0 21.0 22.0 22.0 
          23.0 23.0 23.0 22.0 23.0 24.0 24.0 24.0 23.0 23.0 24.0 26.0 
          27.0 29.0 30.0 30.0 26.0 26.0 26.0 30.0 31.0 32.0 29.0 28.0 
@@ -2567,32 +2566,32 @@
          0.0 
       </constant>
         <constant cols="1" digits="0" name="pwmidle_cl_initialvalue_rpms" rows="5" units="rpm">
-         850.0 
-         950.0 
+         900.0 
+         1000.0 
          1100.0 
          1200.0 
-         1300.0 
+         1400.0 
       </constant>
         <constant cols="1" digits="1" name="pwmidle_cl_initialvalue_matorclt" rows="5" units="°F">
+         0.0 
          50.0 
-         75.0 
          100.0 
-         185.0 
-         190.0 
+         150.0 
+         212.0 
       </constant>
         <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         59.976 65.072 65.072 65.072 65.072 
-         54.88 59.976 65.072 65.072 65.072 
-         50.176 54.88 59.976 65.072 65.072 
-         45.08 47.04 50.176 52.92 54.88 
-         30.968 31.752 32.144 33.32 33.712 
+         32.536 42.728 43.904 54.096 65.072 
+         32.536 42.728 43.904 54.096 65.072 
+         32.536 42.728 43.904 54.096 65.072 
+         29.4 38.808 39.984 50.176 65.072 
+         30.968 38.808 39.984 50.176 65.072 
       </constant>
         <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         153.0 166.0 166.0 166.0 166.0 
-         140.0 153.0 166.0 166.0 166.0 
-         128.0 140.0 153.0 166.0 166.0 
-         115.0 120.0 128.0 135.0 140.0 
-         79.0 81.0 82.0 85.0 86.0 
+         83.0 109.0 112.0 138.0 166.0 
+         83.0 109.0 112.0 138.0 166.0 
+         83.0 109.0 112.0 138.0 166.0 
+         75.0 99.0 102.0 128.0 166.0 
+         79.0 99.0 102.0 128.0 166.0 
       </constant>
         <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
