@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Nov 15 10:26:06 EST 2025"/>
+    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Sat Nov 15 10:26:06 EST 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms330NP"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
