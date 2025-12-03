@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-    <bibliography author="TunerStudio 3.3.01 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2025, All Rights Reserved." writeDate="Mon Dec 01 13:03:50 EST 2025"/>
+    <bibliography author="TunerStudio 3.3.01 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2025, All Rights Reserved." writeDate="Tue Dec 02 18:09:21 EST 2025"/>
     <versionInfo fileFormat="3.0" firmwareSignature="MS2Extra comms330NP"/>
     <gaugeCluster antiAliasing="true" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile" forceAspect="false" forceAspectHeight="9.0" forceAspectWidth="16.0">
         <dashComp type="Gauge">
@@ -27,11 +27,10 @@
             <HighCriticalVP type="ValueProvider">rpmdang</HighCriticalVP>
             <HighWarning type="double">NaN</HighWarning>
             <HighWarningVP type="ValueProvider">rpmwarn</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">973.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">300.0</LowCritical>
-            <GroupId type="int">1597841345</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">300.0</LowCriticalVP>
             <LowWarning type="double">600.0</LowWarning>
             <LowWarningVP type="ValueProvider">600.0</LowWarningVP>
@@ -40,6 +39,7 @@
             <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="255" green="255" red="0" type="Color">-16711681</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">83</ShortestSize>
@@ -56,8 +56,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">1597841345</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String">Engine Speed</Title>
             <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -102,11 +102,10 @@
             <HighCriticalVP type="ValueProvider">rpmdang</HighCriticalVP>
             <HighWarning type="double">NaN</HighWarning>
             <HighWarningVP type="ValueProvider">rpmwarn</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">973.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">300.0</LowCritical>
-            <GroupId type="int">1597841345</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">300.0</LowCriticalVP>
             <LowWarning type="double">600.0</LowWarning>
             <LowWarningVP type="ValueProvider">600.0</LowWarningVP>
@@ -115,6 +114,7 @@
             <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">17</ShortestSize>
@@ -131,8 +131,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">1597841345</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String"/>
             <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -177,11 +177,10 @@
             <HighCriticalVP type="ValueProvider">loadhigh</HighCriticalVP>
             <HighWarning type="double">200.0</HighWarning>
             <HighWarningVP type="ValueProvider">200.0</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">36.9</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">0.0</LowCritical>
-            <GroupId type="int">652521971</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">0.0</LowCriticalVP>
             <LowWarning type="double">20.0</LowWarning>
             <LowWarningVP type="ValueProvider">20.0</LowWarningVP>
@@ -190,6 +189,7 @@
             <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">83</ShortestSize>
@@ -206,8 +206,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">652521971</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String">Engine MAP</Title>
             <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -252,11 +252,10 @@
             <HighCriticalVP type="ValueProvider">loadhigh</HighCriticalVP>
             <HighWarning type="double">200.0</HighWarning>
             <HighWarningVP type="ValueProvider">200.0</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">36.9</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">0.0</LowCritical>
-            <GroupId type="int">652521971</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">0.0</LowCriticalVP>
             <LowWarning type="double">20.0</LowWarning>
             <LowWarningVP type="ValueProvider">20.0</LowWarningVP>
@@ -265,6 +264,7 @@
             <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">17</ShortestSize>
@@ -281,8 +281,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">652521971</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String"/>
             <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -327,11 +327,10 @@
             <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
             <HighWarning type="double">15.0</HighWarning>
             <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-            <HistoricalPeakValue type="double">10.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">13.700000000000001</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">2</LabelDigits>
             <LowCritical type="double">12.0</LowCritical>
-            <GroupId type="int">1489728600</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
             <LowWarning type="double">13.0</LowWarning>
             <LowWarningVP type="ValueProvider">13.0</LowWarningVP>
@@ -340,6 +339,7 @@
             <MinVP type="ValueProvider">10.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="0" green="255" red="255" type="Color">-256</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">83</ShortestSize>
@@ -356,8 +356,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">2</LabelDigits>
+            <GroupId type="int">1489728600</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String">Air:Fuel Ratio</Title>
             <Value type="double">10.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -402,11 +402,10 @@
             <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
             <HighWarning type="double">15.0</HighWarning>
             <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-            <HistoricalPeakValue type="double">10.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">13.700000000000001</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">2</LabelDigits>
             <LowCritical type="double">12.0</LowCritical>
-            <GroupId type="int">1489728600</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
             <LowWarning type="double">13.0</LowWarning>
             <LowWarningVP type="ValueProvider">13.0</LowWarningVP>
@@ -415,6 +414,7 @@
             <MinVP type="ValueProvider">10.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">17</ShortestSize>
@@ -431,8 +431,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">2</LabelDigits>
+            <GroupId type="int">1489728600</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String"/>
             <Value type="double">10.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -477,11 +477,10 @@
             <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
             <HighWarning type="double">101.0</HighWarning>
             <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-            <HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">1</LabelDigits>
             <LowCritical type="double">90.0</LowCritical>
-            <GroupId type="int">111216839</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
             <LowWarning type="double">99.0</LowWarning>
             <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
@@ -490,6 +489,7 @@
             <MinVP type="ValueProvider">50.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="0" green="255" red="0" type="Color">-16711936</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">83</ShortestSize>
@@ -506,8 +506,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">1</LabelDigits>
+            <GroupId type="int">111216839</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String">EGO Correction</Title>
             <Value type="double">50.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -552,11 +552,10 @@
             <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
             <HighWarning type="double">101.0</HighWarning>
             <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-            <HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">1</LabelDigits>
             <LowCritical type="double">90.0</LowCritical>
-            <GroupId type="int">111216839</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
             <LowWarning type="double">99.0</LowWarning>
             <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
@@ -565,6 +564,7 @@
             <MinVP type="ValueProvider">50.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">17</ShortestSize>
@@ -581,8 +581,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">1</LabelDigits>
+            <GroupId type="int">111216839</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String"/>
             <Value type="double">50.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -627,11 +627,10 @@
             <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
             <HighWarning type="double">999.0</HighWarning>
             <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-            <HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">-1.0</LowCritical>
-            <GroupId type="int">1462575505</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">-1.0</LowCriticalVP>
             <LowWarning type="double">-1.0</LowWarning>
             <LowWarningVP type="ValueProvider">-1.0</LowWarningVP>
@@ -640,6 +639,7 @@
             <MinVP type="ValueProvider">50.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="255" green="0" red="255" type="Color">-65281</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">83</ShortestSize>
@@ -656,8 +656,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">1462575505</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String">Accel Enrich%</Title>
             <Value type="double">50.0</Value>
             <Dirty type="boolean">true</Dirty>
@@ -702,11 +702,10 @@
             <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
             <HighWarning type="double">999.0</HighWarning>
             <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-            <HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
+            <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">-1.0</LowCritical>
-            <GroupId type="int">1462575505</GroupId>
-            <GoingDead type="boolean">false</GoingDead>
             <LowCriticalVP type="ValueProvider">-1.0</LowCriticalVP>
             <LowWarning type="double">-1.0</LowWarning>
             <LowWarningVP type="ValueProvider">-1.0</LowWarningVP>
@@ -715,6 +714,7 @@
             <MinVP type="ValueProvider">50.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
+            <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">17</ShortestSize>
@@ -731,8 +731,8 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <NeedleImageFileName type="String">null</NeedleImageFileName>
-            <LabelDigits type="int">0</LabelDigits>
+            <GroupId type="int">1462575505</GroupId>
+            <GoingDead type="boolean">false</GoingDead>
             <Title type="String"/>
             <Value type="double">50.0</Value>
             <Dirty type="boolean">true</Dirty>
