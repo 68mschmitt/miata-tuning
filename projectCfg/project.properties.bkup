@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Dec 02 19:00:37 EST 2025
-#Tue Dec 02 19:00:37 EST 2025
+#Last Saved on: Tue Dec 02 19:02:51 EST 2025
+#Tue Dec 02 19:02:51 EST 2025
 canparamsCAN\ Parameters_X=213
 combinedCLidleClosed-loop\ Idle\ Control_width=783
 canparamsCAN\ Parameters_Y=109
@@ -42,7 +42,7 @@ coldAdvanceCold\ Ignition\ Advance\ Offset_X=174
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 pwmidle_cl_initialvaluesClosed-loop\ Idle\ Initial\ Values_width=339
 CommSettingBaud\ Rate=115200
-Triggers.ActiveTriggers=syncLossDetect|cltTempWarning|
+Triggers.ActiveTriggers=
 veTable1TblVE\ Table\ 1_Y=182
 veTable1TblVE\ Table\ 1_X=15
 battcalibBattery\ Voltage\ Calibration_height=206
@@ -57,8 +57,8 @@ matclt_curve%CLT\ used\ in\ MAT\ vs\ airflow_X=781
 crankingPWCranking\ Pulsewidth%_Y=101
 crankingPWCranking\ Pulsewidth%_X=286
 mafdialogMAF\ Settings_X=731
-mafdialogMAF\ Settings_Y=428
 baseEngine\ and\ Sequential\ Settings_width=752
+mafdialogMAF\ Settings_Y=428
 refTable_002_txtY1=8.7
 iactestIdle\ valve\ test_height=411
 overrunOver\ Run\ Fuel\ Cut_width=321
@@ -66,9 +66,9 @@ idleAdvanceIdle\ Advance\ Settings_width=279
 outputtestOutput\ Test\ Mode\ -\ Inj/Spk_Y=201
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_X=421
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_Y=127
-canId=0
-logTuningPanel_selectionTable2=RotarySplitTbl
 refTable_002_txtY2=18.7
+logTuningPanel_selectionTable2=RotarySplitTbl
+canId=0
 logTuningPanel_selectionTable1=veTable3Tbl
 crankingPWCranking\ Pulsewidth%_width=710
 pwmidle_target_curve_showText=true
