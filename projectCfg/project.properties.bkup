@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri May 08 21:05:20 EDT 2026
-#Fri May 08 21:05:20 EDT 2026
+#Last Saved on: Fri May 15 17:10:49 EDT 2026
+#Fri May 15 17:10:49 EDT 2026
 canparamsCAN\ Parameters_X=213
 combinedCLidleClosed-loop\ Idle\ Control_width=783
 canparamsCAN\ Parameters_Y=109
@@ -57,8 +57,8 @@ matclt_curve%CLT\ used\ in\ MAT\ vs\ airflow_X=781
 crankingPWCranking\ Pulsewidth%_Y=101
 crankingPWCranking\ Pulsewidth%_X=286
 mafdialogMAF\ Settings_X=731
-mafdialogMAF\ Settings_Y=428
 baseEngine\ and\ Sequential\ Settings_width=752
+mafdialogMAF\ Settings_Y=428
 refTable_002_txtY1=8.7
 iactestIdle\ valve\ test_height=411
 overrunOver\ Run\ Fuel\ Cut_width=321
@@ -66,9 +66,9 @@ idleAdvanceIdle\ Advance\ Settings_width=274
 outputtestOutput\ Test\ Mode\ -\ Inj/Spk_Y=201
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_X=421
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_Y=127
-canId=0
-logTuningPanel_selectionTable2=RotarySplitTbl
 refTable_002_txtY2=18.7
+logTuningPanel_selectionTable2=RotarySplitTbl
+canId=0
 logTuningPanel_selectionTable1=veTable3Tbl
 crankingPWCranking\ Pulsewidth%_width=710
 pwmidle_target_curve_showText=true
